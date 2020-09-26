@@ -1,0 +1,60 @@
+/* .App {
+  background: #65869e;
+  height: 100vh;
+  padding: 30px;
+
+} */
+
+
+
+.todo-list {
+  
+  width: 50%;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+.todo {
+  align-items: center;
+  background:rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  border: solid 2px black;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 17px;
+  color: black;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 20px 10px;
+}
+
+.todo:hover{
+  animation: zoom-grey 0.5s forwards;
+  cursor: pointer;
+}
+
+@keyframes zoom-grey {
+  0% {
+    transform: scale(1) ;
+    filter: drop-shadow(0%);
+  }
+  100% {
+    border: solid 2px red;
+    transform: scale(1.2) ;
+    filter: drop-shadow(100%);
+  }
+}
+
+.input {
+  background:rgba(255, 255, 255, 0.8);
+  margin: 10px 0 0 0;
+  width: 100%;
+  height: 70px;
+  
+}
+
+button:hover {
+  background-color: red;
+  border-radius: 50%;
+}
+
